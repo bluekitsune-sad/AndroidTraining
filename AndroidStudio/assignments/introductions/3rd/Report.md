@@ -12,40 +12,46 @@ Assignment Report for 1.3
 
 
 
-answer:
+# answer:
 
-Project configuration
+## Project configuration
 
 The Android application project has the following structure.
+<br/>
 The project configuration is based on the Gradle build system.
 
+<img width="300" alt="studio-project1" src="https://github.com/bluekitsune-sad/AndroidTraining/assets/116144344/9dbc6639-d063-483e-a611-c6f31577508a">
+
+
 studio-project-structure
-Module (app in the above diagram)
+## Module (app in the above diagram)
 
 Modules are units of functionality that can be run, tested, and debugged individually.
 It corresponds to one application, library, etc.
-Module / java
+## Module / java
 
 Contains source code written in Java.
-Module / res
+## Module / res
 
 Contains various resources such as layout files, fixed phrases, and images. Naming rules are determined for each resource to be stored. It is also possible to divide directories according to the specifications of the terminal being used.
-Module / manifests / AndroidManifest.xml
+## Module / manifests / AndroidManifest.xml
 
 This is the place to make various declarations regarding the app. This is also where you declare the device features (camera, external storage, etc.) used by the app, as well as permissions.
-Module / assets
+## Module / assets
 
 assets is a storage location for files that can be read and written by the app. You can save simple html and open it with WebView. Assets are not prepared when the project is generated, so you must create them yourself if you need them. If necessary, src / main / in the Finder or in the Project Files tab described below and store the files there. in an assets directory create
-Gradle Scripts
+## Gradle Scripts
 
 Contains various settings for building apps and libraries, such as build.gradle.
-
 by default Also, the Android tab is selected Project Files . , but you can also see the actual file tree by selecting
 
+<img width="300" alt="studio-project1-2" src="https://github.com/bluekitsune-sad/AndroidTraining/assets/116144344/da2ecc3d-9691-4a62-bab4-e9fbec086b42">
+
+
 studio-project-structure
-.idea directory
+## .idea directory
 
 Contains project configuration files.
-src / module name.iml (app.iml in the above figure)
+## src / module name.iml (app.iml in the above figure)
 
 Contains module configuration information. 
