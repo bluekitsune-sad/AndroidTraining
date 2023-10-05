@@ -1,4 +1,4 @@
-package jp.mixi.assignment.layout;
+package com.example.coding_with_mixi.Layout;
 
 
 public class CalcModel {

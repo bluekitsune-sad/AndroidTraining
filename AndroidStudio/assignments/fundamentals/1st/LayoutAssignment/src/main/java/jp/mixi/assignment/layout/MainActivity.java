@@ -1,10 +1,13 @@
-package jp.mixi.assignment.layout;
+package com.example.coding_with_mixi.Layout;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.coding_with_mixi.R;
 
 public class MainActivity extends AppCompatActivity {
 

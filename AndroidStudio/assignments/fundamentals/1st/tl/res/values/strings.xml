@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">coding-with-MIXI</string>
+    <string name="hello_world">hello_world\n</string>
+    <string name="LongText">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Amet harum ipsam natus nemo perferendis sapiente! Autem corporis doloremque fugit repellendus repudiandae.
+        Fugit ipsam nisi veniam voluptatem! Culpa nemo quisquam recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Accusantium asperiores at, culpa debitis dicta dolor expedita facere id labore libero mollitia nemo non quod tempore ullam vero vitae voluptate voluptates. </string>
+    <string name="btnn">ButToN</string>
+</resources>

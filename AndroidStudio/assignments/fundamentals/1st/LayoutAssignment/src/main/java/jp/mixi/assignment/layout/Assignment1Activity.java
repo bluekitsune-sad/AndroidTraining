@@ -1,18 +1,22 @@
-package jp.mixi.assignment.layout;
+package com.example.coding_with_mixi.Layout;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.coding_with_mixi.R;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.HashMap;
 import java.util.Map;
 
-import jp.mixi.assignment.layout.CalcModel.OPERATOR;
+import com.example.coding_with_mixi.Layout.CalcModel.OPERATOR;
 
 @SuppressLint("UseSparseArrays")
 public class Assignment1Activity extends AppCompatActivity {

@@ -2,17 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Layout.Assignment2Activity" >
+    tools:context=".MainActivity" >
 
     <!-- このLinearLayoutをRelativeLayoutに変更して同じレイアウトを実現してください -->
-    <LinearLayout
+    <!-- 変更後 -->
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffc356"
-        android:orientation="horizontal"
         android:padding="4dp" >
 
         <ImageView
+            android:id="@+id/ImageView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="4dp"
@@ -20,22 +22,29 @@
             android:src="@drawable/ic_launcher_background" />
 
         <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical" >
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ImageView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/ImageView1"
+            android:layout_toRightOf="@+id/ImageView1"
+            android:orientation="vertical">
 
             <TextView
+                android:id="@+id/OrangeText"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="#ff9630" />
+                android:layout_height="wrap_content"
+                android:background="#CA6604"
+                android:minHeight="50dp"/>
 
             <TextView
+                android:id="@+id/LightOrangeText"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="#ffedc6" />
+                android:layout_height="wrap_content"
+                android:background="#ffedc6"
+                android:minHeight="50dp"
+                />
         </LinearLayout>
-    </LinearLayout>
+    </RelativeLayout>
+
 </FrameLayout>

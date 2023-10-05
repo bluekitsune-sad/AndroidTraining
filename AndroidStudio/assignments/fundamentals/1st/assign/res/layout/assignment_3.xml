@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Layout.MainActivity" >
+    tools:context=".MainActivity" >
 
     <RelativeLayout
         android:id="@+id/RelativeLayout1"
@@ -21,7 +21,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:layout_margin="4dp"
-            android:text="ドロイド君の画像ファイル"
+            android:text="Android-kun's image file"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -41,6 +41,7 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentTop="true"
             android:background="#ffffff"
+            android:backgroundTint="@color/lightblue"
             android:src="@drawable/ic_launcher_foreground" />
     </RelativeLayout>
 

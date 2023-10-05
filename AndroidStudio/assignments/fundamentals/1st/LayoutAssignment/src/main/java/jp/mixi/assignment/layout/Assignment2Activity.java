@@ -1,8 +1,11 @@
 
-package jp.mixi.assignment.layout;
+package com.example.coding_with_mixi.Layout;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.coding_with_mixi.R;
 
 public class Assignment2Activity extends AppCompatActivity {
 
